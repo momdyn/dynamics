@@ -1,3 +1,7 @@
+from sympy import *
+from sympy.physics.mechanics import *
+from IPython.display import display, Latex
+
 """
 Uses `IPython.display` to show formatted equation with an equals sign between terms given `str` or `Symbol`-like arguments.
 
@@ -9,7 +13,7 @@ Example
 >> # Sympy-formatted argument
 >> N = ReferenceFrame('N')
 >> x, y = symbols('x, y')
->> arg2 = x*N.x + Y*N.y
+>> arg2 = x*N.x + y*N.y
 >>
 >> # Formatted equation
 >> dtex(arg1, arg2)
