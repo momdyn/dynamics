@@ -1,5 +1,8 @@
-# dynamics
-Eliott’s Principles of Dynamics
+# Eliott’s Principles of Dynamics
+
+Work in progress! 
+This is a new project, intended to reflect key aspects of the mechanism dynamics analysis workflow, with references to Python utilities.
+The chapters below are incomplete as of this time. 
 
 ## Table of Contents
 1. [First Principles](principles.ipynb)
